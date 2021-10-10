@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style3.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div id="blue"></div>
+            <div id="red"></div>
+            <div id="green"></div>
+            
+        </div>
+        
+        <button id="btn"  type="button" onclick="myfunction()" > 클</button>
+
+        <button id="bttn"  type="button" onclick="cssChange()" > 클</button>
+
+        <button id="btttn"  type="button" onclick="css()" > 클</button>
+         <script>
+        function myfunction() {
+        var x = document.getElementById("blue");
+        var y = document.getElementById("green");
+        var z = document.getElementById("red");
+        var a = document.getElementById("btn");
+        var m = document.getElementById("bttn");
+        var mm = document.getElementById("btttn")
+        x.style.left="-300px"
+        y.style.left="-200px"
+        y.style.transition="0.3s"
+        z.style.left="300px"
+        x.style.transition="0.3s"
+        z.style.transition="0.3s"
+        a.style.display="none"
+        mm.style.display="none"
+        m.style.display="block"
+        m.style.left="150px"
+        }
+
+        
+        function css() {
+        var g = document.getElementById("blue");
+        var h = document.getElementById("green");
+        var i = document.getElementById("red");
+        var j = document.getElementById("btn");
+        var o = document.getElementById("bttn");
+        var oo = document.getElementById("btttn");
+        g.style.left="300px"
+        h.style.left="700px"
+        i.style.left="900px"
+        h.style.transition="0.3s"
+        i.style.left="1000px"
+        g.style.transition="0.3s"
+        i.style.transition="0.3s"
+        j.style.display="none"
+        o.style.display="block"
+        oo.style.display="none"
+        o.style.display="active"
+        o.style.zIndex="3"
+        o.style.left="500px"
+        
+        }
+       
+        function cssChange() {
+        var b = document.getElementById("blue");
+        var c = document.getElementById("green");
+        var d = document.getElementById("red");
+        var e = document.getElementById("btn");
+        var f = document.getElementById("bttn");
+        var ff = document.getElementById("btttn");
+        b.style.left="-200px"
+        c.style.left="300px"
+        d.style.left="700px"
+        c.style.transition="0.3s"
+        d.style.left="x"
+        b.style.transition="0.3s"
+        d.style.transition="0.3s"
+        e.style.display="none"
+        f.style.display="none"
+        e.style.display="block"
+        ff.style.display="block"
+
+        }
+
+        
+     </script>
+    </body>
+</html>

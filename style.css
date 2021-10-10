@@ -1,0 +1,54 @@
+.site_name{
+    position: absolute;
+    top: 20px;
+    left: 263px;
+    font-size: 120px;
+    font-weight: bold;
+    color:#ff5126;
+}
+.site_information{
+    position: absolute;
+    font-size: 48px;
+    font-weight: bold;
+    color: #6C6C6C;
+    top: 245px;
+    left:112px ;
+}
+.test{
+    display: none;
+    position: fixed;
+    background-color: #6C6C6C;
+    width: 375px;
+    height: 394px;
+}
+.site_downlode{
+    position: absolute;
+    width: 378px;
+    height: 100px;
+    background-color: #0E1D2D;
+    border-radius: 50px;
+    top: 400px;
+    left: 181px;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.26);
+    font-weight:540;
+    font-size: 52px;
+}
+.site_downlode:hover{
+    position: absolute;
+    width: 368px;
+    height: 95px;
+    background-color: rgba(14,29,45,0.93);
+    border-radius: 50px;
+    top: 402px;
+    left: 186px;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    transition: 0.2s;
+    font-weight: 540;
+    font-size: 49px;
+}
+*{
+    margin: 0px;
+}
+
